@@ -295,6 +295,12 @@ register(
 )
 
 register(
+    id='Walker2dFalling-v0',
+    max_episode_steps=1000,
+    entry_point='gym.envs.mujoco.walker2d:Walker2dFallingEnv',
+)
+
+register(
     id='Walker2d-v3',
     max_episode_steps=1000,
     entry_point='gym.envs.mujoco.walker2d_v3:Walker2dEnv',
